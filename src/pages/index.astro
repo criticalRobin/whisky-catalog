@@ -1,16 +1,52 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
+import WhiskyCard from "../components/WhiskyCard.astro";
+import whiskies from "../data/whiskies.json";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Whisky Catalog">
+  <div
+    class="h-screen bg-cover bg-center relative"
+    style="background-image: url('/images/diablada.jpg');"
+  >
+    <div
+      class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center"
+    >
+      <div
+        class="flex flex-col items-center text-center justify-center px-4 mb-6"
+      >
+        <h1 class="text-4xl text-white font-bold mb-1 drop-shadow-lg">
+          Whisky Exclusivo de Promoción
+        </h1>
+        <span
+          class="text-normal text-white font-semibold drop-shadow-md tracking-wide"
+        >
+          En Pillaro sabemos que los mejores pecados se disfrutan con un buen
+          whisky. ¿Te atreves?
+        </span>
+      </div>
+      <div class="flex flex-col gap-3">
+        <a
+          href="https://wa.me/+593992283981"
+          target="_blank"
+          class="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700"
+        >
+          Contacto
+        </a>
+        <button
+          onclick="document.getElementById('catalog').scrollIntoView({behavior: 'smooth'})"
+          class="bg-amber-900 text-white px-8 py-3 rounded-lg hover:bg-amber-700"
+        >
+          Catálogo
+        </button>
+      </div>
+    </div>
+  </div>
+  <main id="catalog" class="container mx-auto px-4 py-16">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+    >
+      {whiskies.map((whisky) => <WhiskyCard {...whisky} />)}
+    </div>
+  </main>
+</Layout>

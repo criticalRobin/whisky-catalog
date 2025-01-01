@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Johnnie Walker Red Label",
+    "price": 15,
+    "volume": "750 ml",
+    "description": "Versátil y vibrante, ideal para cócteles. Notas de especias y frutas maduras.",
+    "image": "/images/whiskies/label-rojo.jpg"
+  },
+  {
+    "name": "Something Special",
+    "price": 20,
+    "volume": "1 L",
+    "description": "Whisky accesible y versátil, ideal para mezclar. Notas de caramelo y especias.",
+    "image": "/images/whiskies/something-special.jpg"
+  },
+  {
+    "name": "Johnnie Walker Black Label",
+    "price": 30,
+    "volume": "750 ml",
+    "description": "El icónico Black Label de 12 años, con notas de vainilla, especias y un final ahumado.",
+    "image": "/images/whiskies/black-label.jpg"
+  },
+  {
+    "name": "Buchanan's",
+    "price": 40,
+    "volume": "750 ml",
+    "description": "Deluxe de 12 años, suave y refinado con notas de naranja y chocolate.",
+    "image": "/images/whiskies/buchanans.jpg"
+  },
+  {
+    "name": "Chivas Regal 12",
+    "price": 40,
+    "volume": "700 ml",
+    "description": "Suave y cremoso con 12 años de añejamiento. Notas de miel, manzana y vainilla.",
+    "image": "/images/whiskies/chivas-12.jpg"
+  },
+  {
+    "name": "Old Parr",
+    "price": 43,
+    "volume": "750 ml",
+    "description": "Whisky suave y equilibrado con notas de miel y vainilla. Un clásico escocés de 12 años.",
+    "image": "/images/whiskies/old-parr.jpg"
+  },
+  {
+    "name": "Johnnie Walker Doble Black",
+    "price": 45,
+    "volume": "758 ml",
+    "description": "Whisky premium con sabores intensos ahumados y especiados, perfecto para los amantes del whisky escocés.",
+    "image": "/images/whiskies/doble-black.jpg"
+  },
+  {
+    "name": "Chivas Regal Whisky",
+    "price": 45,
+    "volume": "1 L",
+    "description": "Whisky clásico de 12 años con equilibrio perfecto entre malta y grano.",
+    "image": "/images/whiskies/chivas-blended.jpg"
+  },
+  {
+    "name": "Chivas Regal Extra",
+    "price": 60,
+    "volume": "700 ml",
+    "description": "Whisky premium madurado en barricas de jerez, con ricos sabores a frutas y chocolate.",
+    "image": "/images/whiskies/chivas-extra.jpg"
+  }
+]
