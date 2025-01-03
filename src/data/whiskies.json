@@ -7,13 +7,6 @@
     "image": "/images/whiskies/label-rojo.jpg"
   },
   {
-    "name": "Something Special",
-    "price": 20,
-    "volume": "1 L",
-    "description": "Whisky accesible y versátil, ideal para mezclar. Notas de caramelo y especias.",
-    "image": "/images/whiskies/something-special.jpg"
-  },
-  {
     "name": "Johnnie Walker Black Label",
     "price": 30,
     "volume": "750 ml",
